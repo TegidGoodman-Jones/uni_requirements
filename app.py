@@ -1,3 +1,10 @@
+# AUTHOR: TEGID GOODMAN-JONES
+# CREATED ON 04/05/20
+# LAST-EDITED ON 12/05/20
+
+
+
+
 from bs4 import BeautifulSoup as BS
 import requests
 from unis_class import University, a_level
