@@ -32,16 +32,20 @@ This is a differtent version of the app.py that will, instead of printing result
 
 
 
-To run you must activate the venv as this has all modules needed as well as ***Python 3.8***.
+To be able to run this app you must install the requests module for python and the bs4 module, as well as ***Python 3.8***.
 
+Install modles like so:
 
+$ pip3 install requests
+
+$ pip3 install bs4
 
 
 
 
 ## **Tkinter version**
 
-You may see a tkinter_app directory. This will only work if you already have python installed as I did not include tkinter in the venv files. The tkinter GUI was only designed for my learning purposes, therefore, it is not efficient and runs slowly.
+You may see a tkinter_app directory. You will have to have Python 3.8 installed with the standard library for this to work. The tkinter GUI was only designed for my learning purposes, therefore, it is not efficient and runs slowly.
 
 In this version, however, there is an option to export the findings to excel, just like the code_auto3.py. This may beuseful for some.
 
