@@ -40,9 +40,9 @@ unis =  [
 	University("imperial-college-london", "i50"),  # 26
 	University("kings-college-london-university-of-london", "k60"),  # 27
 	University("university-of-liverpool", "l41"),  # 28
-	University("queen-mary-university-of-london", "q50")  # 29
+	University("queen-mary-university-of-london", "q50"),  # 29
+	University("university-of-york", "y50")  #30
 	# queen-belfast
-	# york
 	# southhampton
 	# collage london	
 ]
@@ -93,7 +93,7 @@ def submit():
 		# make url vars
 		
 
-		link_p = "https://www.theuniguide.co.uk/search/course?utf8=%E2%9C%93&c%5Bq%5D=" + str(off_course_name) + "&c%5Bacademic_years%5D=2020&c%5Binstitution_slug%5D%5B%5D=" + uni.name.lower() + "-" + uni.code + "&c%5Bsort%5D=relevance"
+		"https://www.theuniguide.co.uk/search/course?utf8=%E2%9C%93&c%5Bq%5D=" + str(off_course_name) + "&c%5Bacademic_years%5D=2021&c%5Binstitution_slug%5D%5B%5D=" + uni.name.lower() + "-" + uni.code + "&c%5Bsort%5D=relevance"
 		link = str(link_p)
 
 		url = requests.get(link)
@@ -167,7 +167,7 @@ def submit():
 				time += 1
 
 
-			if uni_num == 29:
+			if uni_num == 30:
 				export.grid(row=5, column=1)
 
 			

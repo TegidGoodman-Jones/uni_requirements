@@ -77,7 +77,7 @@ for uni in unis:
 	
 	# getting the page
 	# make url vars
-	link_p = "https://www.theuniguide.co.uk/search/course?utf8=%E2%9C%93&c%5Bq%5D=" + str(off_course_name) + "&c%5Bacademic_years%5D=2020&c%5Binstitution_slug%5D%5B%5D=" + uni.name.lower() + "-" + uni.code + "&c%5Bsort%5D=relevance"
+	"https://www.theuniguide.co.uk/search/course?utf8=%E2%9C%93&c%5Bq%5D=" + str(off_course_name) + "&c%5Bacademic_years%5D=2021&c%5Binstitution_slug%5D%5B%5D=" + uni.name.lower() + "-" + uni.code + "&c%5Bsort%5D=relevance"
 	link = str(link_p)
 
 	url = requests.get(link)
