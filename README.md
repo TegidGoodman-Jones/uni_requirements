@@ -34,12 +34,13 @@ This is a differtent version of the app.py that will, instead of printing result
 
 To be able to run this app you must install the requests module for python and the bs4 module, as well as ***Python 3.8***.
 
-Install modles like so:
+Install modules like so:
 
+```bash
 $ pip3 install requests
 
 $ pip3 install bs4
-
+```
 
 
 
@@ -47,7 +48,20 @@ $ pip3 install bs4
 
 You may see a tkinter_app directory. You will have to have Python 3.8 installed with the standard library for this to work. The tkinter GUI was only designed for my learning purposes, therefore, it is not efficient and runs slowly.
 
-In this version, however, there is an option to export the findings to excel, just like the code_auto3.py. This may beuseful for some.
+In this version, however, there is an option to export the findings to excel, just like the code_auto3.py. This may be useful for some.
 
-I do not advise using this version as it was not developed for public use.
+I do not advise using this version as it was not developed for public use. It is slow and often has arising issues. 
+
+However if you do decide to use, I would recommend using a venv virtual enviroment for easier use.
+
+```bash
+$ source venv/bin/activate
+
+$ pip3 install tkinter
+```
+#### Author
+
+Tegid Goodman-Jones
+
+https://tegidgoodman-jones.github.io/
 
